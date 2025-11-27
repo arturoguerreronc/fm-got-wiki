@@ -48,7 +48,7 @@ This project is a multimedia website that celebrates the world of Game of Throne
 - Audio player with Game of Thrones main theme
 - Video player with series trailer
 - Download protection on media controls
-- Custom styled media players
+- Custom-styled media players
 
 ### 🔗 Navigation
 
@@ -71,7 +71,7 @@ This project is a multimedia website that celebrates the world of Game of Throne
   - Dynamic content rotation
 - **Fonts**:
   - Google Fonts (Cinzel, Lora)
-  - Custom typography for medieval feel
+  - Custom typography for a medieval feel
 
 ## Project Structure
 
@@ -104,8 +104,7 @@ proyecto-multimedia/
 - Media section with audio and video players
 
 ### ⏳ History (`src/pages/history.html`)
-
-- Timeline of major events in Westeros history
+- Timeline of major events in Westeros' history
 - Interactive timeline design
 - Historical artifacts section
 - Events from the Age of Heroes to the Great War
@@ -168,7 +167,7 @@ npx http-server
 ### Media Controls
 
 - Audio and video players have download protection
-- Custom styled controls matching the theme
+- Custom-styled controls matching the theme
 - Responsive video player with poster image
 
 ## Screenshots
@@ -205,8 +204,7 @@ const quotes = [
 ```
 
 ### Canvas Logo
-
-A custom-drawn crown logo using HTML5 Canvas API that appears in both header and footer.
+A custom-drawn crown logo using HTML5 Canvas API that appears in both the header and footer.
 
 ### Smooth Header Animation
 
@@ -227,8 +225,7 @@ The header smoothly hides when scrolling down and reappears when scrolling up, u
 - **A Song of Ice and Fire**: Book series by George R.R. Martin
 
 ### Assets
-
-- Images: Various sources including HBO promotional materials and fan artists
+- Images: Various sources, including HBO promotional materials and fan artists
 - Music: Main theme by Ramin Djawadi
 - Fonts: Google Fonts (Cinzel, Lora)
 
