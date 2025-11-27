@@ -139,7 +139,7 @@ nav ul li.active a {
 .hero {
   height: 65vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/src/assets/images/known-world.jpg");
+    url("../assets/images/known-world.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -244,13 +244,13 @@ main {
 
 .history-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/src/assets/images/westeros-history.jpg");
+    url("../assets/images/westeros-history.jpg");
   background-size: cover;
 }
 
 .houses-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/src/assets/images/westeros-great-houses.jpg");
+    url("../assets/images/westeros-great-houses.jpg");
   background-size: cover;
 }
 
@@ -567,7 +567,7 @@ footer {
 
 .history-banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
-    url("/src/assets/images/westeros-history.jpg");
+    url("../assets/images/westeros-history.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -663,49 +663,49 @@ footer {
 
 .age-of-heroes {
   background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
-    url("/src/assets/images/age-of-heroes.jpg");
+    url("../assets/images/age-of-heroes.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .long-night {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05)),
-    url("/src/assets/images/the-long-night.jpg");
+    url("../assets/images/the-long-night.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .aegons-conquest {
   background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.5)),
-    url("/src/assets/images/aegons-conquest.jpg");
+    url("../assets/images/aegons-conquest.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .dance-of-dragons {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05)),
-    url("/src/assets/images/dance-of-dragons.jpg");
+    url("../assets/images/dance-of-dragons.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .roberts-rebellion {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05)),
-    url("/src/assets/images/robert-rebelion.jpg");
+    url("../assets/images/robert-rebelion.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .war-of-five-kings {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05)),
-    url("/src/assets/images/war-five-kings.jpg");
+    url("../assets/images/war-five-kings.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .great-war {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05)),
-    url("/src/assets/images/the-great-war.jpg");
+    url("../assets/images/the-great-war.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -748,21 +748,21 @@ footer {
 
 .valyrian-steel {
   background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
-    url("/src/assets/images/valeryan-steel.jpg");
+    url("../assets/images/valeryan-steel.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .dragon-eggs {
   background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
-    url("/src/assets/images/dragons-egg.jpg");
+    url("../assets/images/dragons-egg.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .iron-throne {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05)),
-    url("/src/assets/images/iron-throne.jpg");
+    url("../assets/images/iron-throne.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -770,7 +770,7 @@ footer {
 /* Houses Page Styles */
 .houses-banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/src/assets/images/westeros-great-houses.jpg");
+    url("../assets/images/westeros-great-houses.jpg");
   background-size: cover;
   background-position: center;
   height: 65vh;
@@ -810,37 +810,37 @@ footer {
 }
 
 .stark {
-  background-image: url("/src/assets/images/house-stark.jpg");
+  background-image: url("../assets/images/house-stark.jpg");
   background-size: cover;
   background-position: 0%;
 }
 
 .lannister {
-  background-image: url("/src/assets/images/house-lannister.jpg");
+  background-image: url("../assets/images/house-lannister.jpg");
   background-size: cover;
   background-position: 0%;
 }
 
 .targaryen {
-  background-image: url("/src/assets/images/house-targaryen.jpg");
+  background-image: url("../assets/images/house-targaryen.jpg");
   background-size: cover;
   background-position: 0%;
 }
 
 .baratheon {
-  background-image: url("/src/assets/images/house-baratheon.jpg");
+  background-image: url("../assets/images/house-baratheon.jpg");
   background-size: cover;
   background-position: 0%;
 }
 
 .tyrell {
-  background-image: url("/src/assets/images/house-tyrell.jpg");
+  background-image: url("../assets/images/house-tyrell.jpg");
   background-size: cover;
   background-position: 0%;
 }
 
 .greyjoy {
-  background-image: url("/src/assets/images/house-greyjoy.jpg");
+  background-image: url("../assets/images/house-greyjoy.jpg");
   background-size: cover;
   background-position: 10%;
 }
