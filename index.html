@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game of Thrones Wiki</title>
+    <link rel="stylesheet" href="/src/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Lora:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="./src/assets/images/got-favicon.png"
+      type="image/x-icon/"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="./index.html" class="logo-container">
+        <canvas id="logo-canvas" width="60" height="60"></canvas>
+        <h1>Game of Thrones Wiki</h1>
+      </a>
+      <nav>
+        <ul>
+          <li class="active"><a href="./index.html">Home</a></li>
+          <li><a href="./src/pages/history.html">History</a></li>
+          <li><a href="./src/pages/houses.html">The Big Houses</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <div class="hero-content">
+        <h2>Game of Thrones</h2>
+        <p>Explore the world of Westeros and beyond</p>
+      </div>
+    </div>
+
+    <main>
+      <section class="intro">
+        <h2>Welcome to the Game of Thrones Wiki</h2>
+        <p>
+          Your complete guide to the epic fantasy series that captivated the
+          world. Discover the rich history, complex characters, and political
+          intrigue that define the Seven Kingdoms.
+        </p>
+
+        <div class="featured-content">
+          <div class="featured-item">
+            <h3>The History</h3>
+            <div class="featured-image history-img"></div>
+            <p>
+              From Aegon's Conquest to the Long Night, explore the timeline of
+              major events that shaped Westeros.
+            </p>
+            <a href="./src/pages/history.html" class="cta-button"
+              >Explore History</a
+            >
+          </div>
+
+          <div class="featured-item">
+            <h3>The Houses</h3>
+            <div class="featured-image houses-img"></div>
+            <p>
+              Learn about the great houses of Westeros, their sigils, words, and
+              the key players in the game of thrones.
+            </p>
+            <a href="./src/pages/houses.html" class="cta-button"
+              >Discover Houses</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="quote-section">
+        <blockquote id="rotating-quote">
+          <span class="quote-text"></span>
+          <cite class="quote-author"></cite>
+        </blockquote>
+      </section>
+
+      <section class="media-section">
+        <h2>Experience the Realm</h2>
+        <div class="media-container">
+          <div class="audio-player">
+            <h3>Main Theme</h3>
+            <audio controls controlslist="nodownload">
+              <source
+                src="./src/assets/audios/got-main-theme.mp3"
+                type="audio/mpeg"
+              />
+              Your browser does not support the audio element.
+            </audio>
+            <p>Listen to the iconic Game of Thrones theme music</p>
+          </div>
+
+          <div class="video-player">
+            <h3>Series Trailer</h3>
+            <video
+              controls
+              controlslist="nodownload"
+              poster="./src/assets/images/got-video-thumbnail.jpg"
+              width="100%"
+            >
+              <source
+                src="./src/assets/videos/got-series-trailer.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video element.
+            </video>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <a href="./index.html" class="footer-logo">
+          <canvas id="footer-logo-canvas" width="40" height="40"></canvas>
+          <span>Game of Thrones Wiki</span>
+        </a>
+        <div class="footer-links">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./src/pages/history.html">History</a></li>
+            <li><a href="./src/pages/houses.html">The Big Houses</a></li>
+          </ul>
+        </div>
+        <div class="footer-info">
+          <p>
+            Made with &hearts; by
+            <a
+              href="https://github.com/arturoguerreronc"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Arturo</a
+            >.
+          </p>
+          <p class="disclaimer">
+            This is a fan-made website. All content, images, and trademarks are
+            owned by their respective owners. No copyright infringement
+            intended.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/src/js/canvas-logo.js"></script>
+    <script src="/src/js/main.js"></script>
+  </body>
+</html>
