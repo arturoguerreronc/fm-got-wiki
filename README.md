@@ -24,29 +24,34 @@ This project is a multimedia website that celebrates the world of Game of Throne
 ## Features
 
 ### 🎨 Design & UI
+
 - **Medieval Aesthetic**: Dark theme with gold accents inspired by Game of Thrones
 - **Responsive Design**: Fully responsive layout that works on all devices
 - **Smooth Animations**: Fade-in effects, hover animations, and smooth transitions
 - **Interactive Navigation**: Sticky header that hides on scroll with smooth animations
 
 ### 📜 Content
+
 - **Home Page**: Introduction with featured sections and rotating quotes
 - **History Page**: Interactive timeline of major events in Westeros
 - **Houses Page**: Detailed cards for the Great Houses with sigils and information
 
 ### 🎭 Interactive Elements
+
 - **Rotating Quotes**: 12 iconic quotes that change every 5 seconds with fade effects
 - **Canvas Logo**: Custom-drawn crown logo using HTML5 Canvas
 - **Media Controls**: Audio player for the main theme and video trailer
 - **Hover Effects**: Cards and buttons with elegant hover animations
 
 ### 🎵 Multimedia
+
 - Audio player with Game of Thrones main theme
 - Video player with series trailer
 - Download protection on media controls
 - Custom styled media players
 
 ### 🔗 Navigation
+
 - Clickable logo and site title that return to home
 - Active page indicators in navigation
 - Footer with social links and disclaimer
@@ -54,7 +59,7 @@ This project is a multimedia website that celebrates the world of Game of Throne
 ## Technologies
 
 - **HTML5**: Semantic markup and Canvas API
-- **CSS3**: 
+- **CSS3**:
   - CSS Variables for theming
   - Flexbox and Grid layouts
   - Custom animations and transitions
@@ -64,7 +69,7 @@ This project is a multimedia website that celebrates the world of Game of Throne
   - Event listeners
   - Intersection Observer API
   - Dynamic content rotation
-- **Fonts**: 
+- **Fonts**:
   - Google Fonts (Cinzel, Lora)
   - Custom typography for medieval feel
 
@@ -92,18 +97,21 @@ proyecto-multimedia/
 ## Pages
 
 ### 🏠 Home (`index.html`)
+
 - Hero section with dramatic background
 - Featured content cards (History & Houses)
 - Rotating quotes section with medieval styling
 - Media section with audio and video players
 
 ### ⏳ History (`src/pages/history.html`)
+
 - Timeline of major events in Westeros history
 - Interactive timeline design
 - Historical artifacts section
 - Events from the Age of Heroes to the Great War
 
 ### 🏰 Houses (`src/pages/houses.html`)
+
 - Cards for the six great houses:
   - House Stark (The North)
   - House Lannister (The Westerlands)
@@ -116,16 +124,19 @@ proyecto-multimedia/
 ## Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/arturoguerreronc/proyecto-multimedia.git
 ```
 
 2. Navigate to the project directory:
+
 ```bash
 cd proyecto-multimedia
 ```
 
 3. Open `index.html` in your browser or use a local server:
+
 ```bash
 # Using Python
 python -m http.server 8000
@@ -142,17 +153,20 @@ npx http-server
 ## Usage
 
 ### Navigation
+
 - Click on the logo or site title to return to the home page
 - Use the navigation menu to browse between pages
 - Active page is highlighted in the navigation
 
 ### Interactive Features
+
 - Quotes change automatically every 5 seconds
 - Hover over cards to see elevation effects
 - Scroll down to hide the header, scroll up to reveal it
 - Only one media element plays at a time
 
 ### Media Controls
+
 - Audio and video players have download protection
 - Custom styled controls matching the theme
 - Responsive video player with poster image
@@ -160,17 +174,27 @@ npx http-server
 ## Screenshots
 
 ### Home Page
+
 The landing page features a dramatic hero section and rotating quotes from iconic characters.
 
+![Home Page](src/assets/images/home-page.png)
+
 ### History Timeline
+
 An interactive timeline showcasing major events in the history of Westeros.
 
+![History Page](src/assets/images/history-page.png)
+
 ### Great Houses
+
 Detailed information cards for each of the major houses of the Seven Kingdoms.
+
+![Big Houses Page](src/assets/images/big-houses-page.png)
 
 ## Key Features Explained
 
 ### Rotating Quotes System
+
 ```javascript
 // 12 iconic quotes rotate every 5 seconds
 const quotes = [
@@ -181,12 +205,15 @@ const quotes = [
 ```
 
 ### Canvas Logo
+
 A custom-drawn crown logo using HTML5 Canvas API that appears in both header and footer.
 
 ### Smooth Header Animation
+
 The header smoothly hides when scrolling down and reappears when scrolling up, using requestAnimationFrame for optimal performance.
 
 ### Medieval Quote Section
+
 - Double borders with golden accents
 - Decorative corner elements
 - Gradient backgrounds with texture overlays
@@ -195,15 +222,18 @@ The header smoothly hides when scrolling down and reappears when scrolling up, u
 ## Credits
 
 ### Content & Inspiration
+
 - **Game of Thrones**: Created by David Benioff and D.B. Weiss for HBO
 - **A Song of Ice and Fire**: Book series by George R.R. Martin
 
 ### Assets
+
 - Images: Various sources including HBO promotional materials and fan artists
 - Music: Main theme by Ramin Djawadi
 - Fonts: Google Fonts (Cinzel, Lora)
 
 ### Developer
+
 - **Arturo Guerrero** - [GitHub](https://github.com/arturoguerreronc)
 
 ## Legal Disclaimer
