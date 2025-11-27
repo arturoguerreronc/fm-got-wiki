@@ -104,6 +104,7 @@ proyecto-multimedia/
 - Media section with audio and video players
 
 ### ⏳ History (`src/pages/history.html`)
+
 - Timeline of major events in Westeros' history
 - Interactive timeline design
 - Historical artifacts section
@@ -194,16 +195,49 @@ Detailed information cards for each of the major houses of the Seven Kingdoms.
 
 ### Rotating Quotes System
 
-```javascript
-// 12 iconic quotes rotate every 5 seconds
-const quotes = [
-  { text: "When you play the game of thrones...", author: "Cersei Lannister" },
-  { text: "Winter is coming.", author: "House Stark" },
-  // ... more quotes
-];
-```
+The rotating quotes feature creates a dynamic display of 12 iconic quotes from Game of Thrones characters, providing an immersive experience on the home page.
+
+**How it works:**
+
+1. **Quote Array**: A collection of 12 carefully selected quotes is stored in an array, each with the quote text and its author:
+
+   ```javascript
+   const quotes = [
+     { text: "When you play the game of thrones...", author: "Cersei Lannister" },
+     { text: "Winter is coming.", author: "House Stark" },
+     // ... 10 more quotes
+   ];
+   ```
+
+2. **Initialization**: On page load, the first quote is displayed immediately:
+
+   ```javascript
+   function initRotatingQuotes() {
+     // Set initial quote (index 0)
+     quoteText.textContent = `"${quotes[0].text}"`;
+     quoteAuthor.textContent = `— ${quotes[0].author}`;
+     
+     // Start rotation every 6 seconds
+     setInterval(rotateQuotes, 6000);
+   }
+   ```
+
+3. **Smooth Transitions**: Every 6 seconds, the quote changes with a fade animation:
+   - **Fade out**: Current quote opacity transitions to 0 (500ms)
+   - **Content swap**: Quote text and author are updated during the fade
+   - **Fade in**: New quote opacity transitions back to 1
+   - **Circular rotation**: After the last quote, it loops back to the first
+
+4. **CSS Styling**: The quote container features:
+   - Medieval-inspired design with golden borders
+   - Decorative corner elements
+   - Smooth opacity transitions (0.5s ease-in-out)
+   - Responsive typography for all screen sizes
+
+This creates an engaging, cinematic effect that keeps the home page dynamic without being distracting.
 
 ### Canvas Logo
+
 A custom-drawn crown logo using HTML5 Canvas API that appears in both the header and footer.
 
 ### Smooth Header Animation
@@ -225,6 +259,7 @@ The header smoothly hides when scrolling down and reappears when scrolling up, u
 - **A Song of Ice and Fire**: Book series by George R.R. Martin
 
 ### Assets
+
 - Images: Various sources, including HBO promotional materials and fan artists
 - Music: Main theme by Ramin Djawadi
 - Fonts: Google Fonts (Cinzel, Lora)
