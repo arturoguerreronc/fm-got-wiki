@@ -435,7 +435,45 @@ audio,
 video {
   width: 100%;
   margin: 1rem 0;
-  border-radius: 3px;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgba(30, 30, 30, 0.8);
+}
+
+/* Enhanced audio player styling */
+audio {
+  filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+  height: 40px;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: var(--card-color);
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-pause-button {
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+  color: var(--text-color);
+  text-shadow: none;
+}
+
+audio::-webkit-media-controls-timeline {
+  background-color: var(--border-color);
+  border-radius: 25px;
+  margin: 0 10px;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  background-color: var(--border-color);
+  border-radius: 25px;
+  padding: 0 5px;
 }
 
 /* Remove download button */

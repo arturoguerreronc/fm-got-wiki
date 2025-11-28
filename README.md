@@ -38,17 +38,16 @@ This project is a multimedia website that celebrates the world of Game of Throne
 
 ### 🎭 Interactive Elements
 
-- **Rotating Quotes**: 12 iconic quotes that change every 5 seconds with fade effects
+- **Rotating Quotes**: 12 iconic quotes that change every 6 seconds with fade effects
 - **Canvas Logo**: Custom-drawn crown logo using HTML5 Canvas
-- **Media Controls**: Audio player for the main theme and video trailer
+- **Audio Player**: Interactive audio player for the main theme
 - **Hover Effects**: Cards and buttons with elegant hover animations
 
 ### 🎵 Multimedia
 
 - Audio player with Game of Thrones main theme
-- Video player with series trailer
-- Download protection on media controls
-- Custom-styled media players
+- Download protection on audio controls
+- Custom-styled audio player matching the medieval theme
 
 ### 🔗 Navigation
 
@@ -101,7 +100,7 @@ proyecto-multimedia/
 - Hero section with dramatic background
 - Featured content cards (History & Houses)
 - Rotating quotes section with medieval styling
-- Media section with audio and video players
+- Media section with audio player
 
 ### ⏳ History (`src/pages/history.html`)
 
@@ -126,13 +125,13 @@ proyecto-multimedia/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/arturoguerreronc/proyecto-multimedia.git
+git clone https://github.com/arturoguerreronc/fm-got-wiki.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd proyecto-multimedia
+cd fm-got-wiki
 ```
 
 3. Open `index.html` in your browser or use a local server:
@@ -160,16 +159,16 @@ npx http-server
 
 ### Interactive Features
 
-- Quotes change automatically every 5 seconds
+- Quotes change automatically every 6 seconds
 - Hover over cards to see elevation effects
 - Scroll down to hide the header, scroll up to reveal it
-- Only one media element plays at a time
+- Audio player with download protection and custom styling
 
 ### Media Controls
 
-- Audio and video players have download protection
-- Custom-styled controls matching the theme
-- Responsive video player with poster image
+- Audio player has download protection
+- Custom-styled controls matching the medieval theme
+- Centered audio player with elegant styling
 
 ## Screenshots
 

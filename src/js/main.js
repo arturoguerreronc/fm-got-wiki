@@ -106,7 +106,7 @@ function initRotatingQuotes() {
   quoteText.textContent = `"${quotes[0].text}"`;
   quoteAuthor.textContent = `— ${quotes[0].author}`;
   
-  // Rotate every 6 seconds
+  // Rotate every 6 seconds**
   setInterval(rotateQuotes, 6000);
 }
 
